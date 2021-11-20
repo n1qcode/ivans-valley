@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: #FFF2E2;*/
+    background: rgb(255,235,210);
+    background: linear-gradient(90deg, rgba(255,235,210,1) 0%, rgba(255,242,226,1) 28%, rgba(236,249,211,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}

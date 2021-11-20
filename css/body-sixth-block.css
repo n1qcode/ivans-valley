@@ -1,0 +1,109 @@
+.body-block-sixth-one-first {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.body-block-sixth-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.body-block-sixth-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.body-block-sixth-img {
+    width: 560px;
+    height: 370px;
+    border-radius: 25px;
+}
+
+.body-block-sixth-text-header {
+    color: #333333;
+    font-size: 58px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.body-block-sixth-text {
+    color: #333333;
+    font-size: 22px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+
+.body-block-sixth-text-left {
+    width: 580px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.body-block-sixth-text-right {
+    width: 580px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.body-block-sixth-right-img {
+    padding-left: 60px;
+}
+
+.body-block-sixth-left-img {
+    padding-right: 60px;
+}
+
+/*.body-block-sixth-button-box {*/
+/*    display: inline-block;*/
+/*    cursor: pointer;*/
+/*    font-size: 20px;*/
+/*    text-decoration: none;*/
+/*    padding: 15px 50px;*/
+/*    color: #ffffff;*/
+/*    background: #16be00;*/
+/*    border-radius: 0;*/
+/*    border: 0 solid #354251;*/
+/*    transition: all 0.8s ease;*/
+/*    margin-left: 220px;*/
+/*}*/
+
+/*.body-block-sixth-button-box:hover {*/
+/*    background: #ffffff;*/
+/*    color: #16be00;*/
+/*    border: 0 solid #354251;*/
+/*    transition: all 0.4s ease;*/
+/*}*/
+
+.body-block-sixth-button-box {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 50px;
+    color: #16BE00;
+    background: #ffffff;
+    border-radius: 25px;
+    border: 2px solid #16BE00;
+    transition: all 0.6s ease;
+    margin-left: 220px;
+    letter-spacing: 2px;
+}
+
+.body-block-sixth-button-box:hover {
+    background: #16BE00;
+    color: #ffffff;
+    border: 2px solid #16BE00;
+    transition: all 0.6s ease;
+}
+
+.hr-line {
+    margin: 20px 0;
+    padding: 0;
+    border: none;
+    background-color: #16be00;
+    height: 2px;
+    width: 100px;
+}

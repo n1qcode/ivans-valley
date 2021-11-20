@@ -1,0 +1,106 @@
+.body-block-fifth-p {
+    color: #333333;
+    font-size: 58px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 75px;
+    letter-spacing: 2px;
+}
+
+.body-block-fifth-text {
+    color: #333333;
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.body-block-fifth-button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #ffffff;
+    background: #16be00;
+    border-radius: 25px;
+    border: 0 solid #354251;
+    transition: all 0.8s ease;
+    margin-left: 116px;
+    letter-spacing: 2px;
+}
+
+/*.body-block-fifth-button-box {*/
+/*    display: inline-block;*/
+/*    cursor: pointer;*/
+/*    font-size: 20px;*/
+/*    text-decoration: none;*/
+/*    padding: 20px 60px;*/
+/*    color: #ffffff;*/
+/*    background: #16be00;*/
+/*    border-radius: 0;*/
+/*    border: 0 solid #354251;*/
+/*    transition: all 0.8s ease;*/
+/*}*/
+
+.body-block-fifth-button-box {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 60px;
+    color: #16BE00;
+    background: #ffffff;
+    border-radius: 25px;
+    border: 2px solid #16BE00;
+    transition: all 0.6s ease;
+    letter-spacing: 2px;
+}
+
+.body-block-fifth-button:hover {
+    background: #ffffff;
+    color: #16be00;
+    border: 0 solid #354251;
+    transition: all 0.4s ease;
+}
+
+.body-block-fifth-button-box:hover {
+    background: #16BE00;
+    color: #ffffff;
+    border: 2px solid #16BE00;
+    transition: all 0.6s ease;
+}
+
+/*.body-block-fifth-button-box:hover {*/
+/*    background: #ffffff;*/
+/*    color: #16be00;*/
+/*    border: 0 solid #354251;*/
+/*    transition: all 0.4s ease;*/
+/*}*/
+
+.body-block-fifth-img {
+    width: 360px;
+    border-radius: 30px;
+}
+
+.body-block-fifth-line {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+.body-block-fifth-bottom-button-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.body-block-fifth-line-box {
+    padding: 15px;
+}

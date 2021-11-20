@@ -1,0 +1,107 @@
+.body-block-eighth {
+    display: flex;
+    width: 470px;
+    padding-left: 70px;
+}
+
+.body-block-eighth-main {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.body-block-eighth-img {
+    width: 30px;
+}
+
+.body-block-eighth-background {
+    background-image: url('/img/eighthblockimg.jpg');
+    background-size: 100% 100%;
+    border-radius: 15px;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.body-block-eighth-mail-window {
+    display: block;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 420px;
+    height: 55px;
+    padding: 10px;
+    color: #000000;
+    font-size: 26px;
+    line-height: 1.55;
+    font-weight: 300;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.body-block-eighth-feedback {
+    display: flex;
+    justify-content: center;
+}
+
+.body-block-eighth-h1-p {
+    color: #333333;
+    font-size: 30px;
+    width: 650px;
+    margin: 15px;
+    padding-top: 55px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.body-block-eighth-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.body-block-eighth-bottom-text-box {
+    display: flex;
+    justify-content: center;
+}
+
+.body-block-eighth-bottom-text {
+    color: #333333;
+    padding-top: 10px;
+    margin: 0;
+    padding-right: 150px;
+}
+
+.body-block-eighth-feedback-button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 19px 30px;
+    color: #ffffff;
+    background: #16be00;
+    border-radius: 25px;
+    border: 0 solid #354251;
+    transition: all 0.8s ease;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.body-block-eighth-feedback-button:hover {
+    background: #ffffff;
+    color: #16be00;
+    border: 0 solid #354251;
+    transition: all 0.4s ease;
+}
+
+.body-block-eighth-background-second {
+    width: 700px;
+    height: 300px;
+    background: white;
+    margin: auto;
+    border-radius: 30px;
+}

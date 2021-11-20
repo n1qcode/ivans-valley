@@ -1,0 +1,101 @@
+.body-block-seventh-text-first {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.body-block-seventh-text-second-one {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.body-block-seventh-text-second-two {
+    display: flex;
+    justify-content: center;
+}
+
+.body-block-seventh-video {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+/*.body-block-seventh-button-box {*/
+/*    display: inline-block;*/
+/*    cursor: pointer;*/
+/*    font-size: 20px;*/
+/*    text-decoration: none;*/
+/*    padding: 20px 65px;*/
+/*    color: #ffffff;*/
+/*    background: #16be00;*/
+/*    border-radius: 30px;*/
+/*    border: 0 solid #354251;*/
+/*    transition: all 0.8s ease;*/
+/*}*/
+
+/*.body-block-seventh-button-box:hover {*/
+/*    background: #ffffff;*/
+/*    color: #16be00;*/
+/*    border: 0 solid #354251;*/
+/*    transition: all 0.4s ease;*/
+/*}*/
+
+.body-block-seventh-button-box {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 60px;
+    color: #16BE00;
+    background: #ffffff;
+    border-radius: 25px;
+    border: 2px solid #16BE00;
+    transition: all 0.6s ease;
+    letter-spacing: 2px;
+}
+
+.body-block-seventh-button-box:hover {
+    background: #16BE00;
+    color: #ffffff;
+    border: 2px solid #16BE00;
+    transition: all 0.6s ease;
+}
+
+.body-block-seventh-text-header {
+    color: #333333;
+    font-size: 58px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.body-block-seventh-text {
+    color: #333333;
+    font-size: 22px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    width: 972px;
+    margin: 0;
+}
+
+.body-block-seventh-text-second {
+    color: #333333;
+    font-size: 22px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    width: 864px;
+    margin: 0;
+}
+
+.body-block-seventh-button-settings {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.body-block-seventh-video-player {
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+    border-width: 0;
+}

@@ -1,0 +1,125 @@
+.footer-main-base {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-logo-left {
+    width: 150px;
+}
+
+.footer-qr-text {
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.footer-qr-left {
+    width: 80px;
+}
+
+.footer-qr-left-third {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.footer-qr-text-left {
+    display: flex;
+    width: 255px;
+    justify-content: space-between;
+}
+
+.footer-logo-text {
+    color: #525252;
+    font-size: 10pt;
+    padding-bottom: 10px;
+}
+
+.footer-nav-info-text {
+    color: #515151;
+    margin: 0;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+
+.footer-nav-info-link {
+    color: #515151;
+    display: flex;
+    margin: 0;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+
+.footer-nav-item-link-num-or-mail {
+    text-decoration: none;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: ui-sans-serif;
+}
+
+.footer-nav-item-header {
+    font-weight: bold;
+    color: #333333;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.hr-line-footer {
+    margin-top: 70px;
+    padding: 0;
+    border: none;
+    background-color: #16be00;
+    height: 2px;
+    width: 1150px;
+}
+
+.footer-nav-item-link {
+    text-decoration: none;
+    color: #525252;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-nav-item-link {
+    transition: all 2s ease;
+}
+
+/*.footer-nav-item-link:after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    background: #16be00;*/
+/*    height: 1px;*/
+/*    opacity: 0;*/
+/*    transition: all 0.6s ease;*/
+/*}*/
+
+.footer-nav-item-link:hover {
+    color: #f4a261;
+    text-shadow: 0 0 16px rgba(244,162,97,0.64);
+    transition: all 0.5s ease;
+}
+
+/*.footer-nav-item-link:hover:after {*/
+/*    opacity: 1;*/
+/*    transition: all 1s ease;*/
+/*}*/
+
+/*.help-style-for-width4 {*/
+/*    width: 64px;*/
+/*}*/
