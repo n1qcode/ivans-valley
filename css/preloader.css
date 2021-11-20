@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffff;
+    background: rgb(255,235,210);
+    background: linear-gradient(90deg, rgba(255,235,210,1) 0%, rgba(255,242,226,1) 28%, rgba(236,249,211,1) 100%);
     z-index: 1001;
 }
 
