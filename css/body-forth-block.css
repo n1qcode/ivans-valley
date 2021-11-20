@@ -8,7 +8,7 @@
 }
 
 .body-block-forth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
+    background-image: url('/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
