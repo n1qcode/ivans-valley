@@ -8,7 +8,19 @@
 }
 
 .body-block-forth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
+    background-image: url('/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
+    background-blend-mode: overlay;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+}
+
+.body-block-forth-background-about {
+    background-image: url('/img/abouttoplogo.png'), -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(34,34,34,0.40));
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -34,7 +46,23 @@
     padding-left: 100px;
 }
 
+.body-block-forth-h1-about {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 72px;
+    padding-top: 183px;
+    display: flex;
+    justify-content: center;
+}
+
 .body-block-forth-h1-p {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.body-block-forth-h1-p-about {
     margin: 0;
     letter-spacing: 2px;
 }

@@ -29,11 +29,37 @@
     letter-spacing: 2px;
 }
 
+.body-block-sixth-text-header-about {
+    color: #333333;
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
 .body-block-sixth-text {
     color: #333333;
     font-size: 22px;
     line-height: 1.7;
     letter-spacing: 2px;
+}
+
+.body-block-sixth-text-about {
+    color: #333333;
+    font-size: 19px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+
+.body-block-sixth-about-ul-text {
+    padding-left: 23px;
+}
+
+.body-block-sixth-about-li-color {
+    color: #73D45E;
+}
+
+.body-block-sixth-about-li-color::marker {
+    font-size: 25px;
 }
 
 .body-block-sixth-text-left {
@@ -106,4 +132,12 @@
     background-color: #16be00;
     height: 2px;
     width: 100px;
+}
+
+.hr-line-allproducts {
+    padding: 0;
+    border: none;
+    background-color: #16be00;
+    height: 2px;
+    width: 295px;
 }

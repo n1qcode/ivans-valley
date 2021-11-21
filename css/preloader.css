@@ -1,4 +1,4 @@
-#preloader {
+.preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +16,10 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity 1s, visibility 0s 1s;
+}
+
+.hide-preloader-full {
+    display: none; !important;
 }
 
 .preloader-img {
