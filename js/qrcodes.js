@@ -25,16 +25,19 @@ const qrCode13 = document.querySelector('.qr-code3-second');
 
 // mobile
 qrIcon1.addEventListener('click', (event) => {
+   event.preventDefault();
    qrCode1.classList.remove('hidden-qr1');
    menuBlockFullqr.classList.add('is-open4');
    menuBlockFullqr2.classList.add('is-open6');
 });
 qrIcon2.addEventListener('click', (event) => {
+   event.preventDefault();
    qrCode2.classList.remove('hidden-qr2');
    menuBlockFullqr.classList.add('is-open4');
    menuBlockFullqr2.classList.add('is-open6');
 });
 qrIcon3.addEventListener('click', (event) => {
+   event.preventDefault();
    qrCode3.classList.remove('hidden-qr3');
    menuBlockFullqr.classList.add('is-open4');
    menuBlockFullqr2.classList.add('is-open6');
