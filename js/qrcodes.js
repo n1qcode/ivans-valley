@@ -1,6 +1,6 @@
 'use strict'
-// mobile
 
+// mobile
 const menuBlockFullqr = document.querySelector('.m-menu-top-sets')
 const menuBlockFullqr2 = document.querySelector('.m-menu-main-block')
 

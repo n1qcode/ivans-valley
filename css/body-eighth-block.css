@@ -14,7 +14,7 @@
 }
 
 .body-block-eighth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/eighthblockimg.jpg');
+    background-image: url('/img/eighthblockimg.jpg');
     background-size: 100% 100%;
     border-radius: 15px;
     background-attachment: fixed, scroll;
@@ -118,15 +118,13 @@
 
     .body-block-eighth-background {
         width: 830px;
+        background-attachment: unset;
+        background-repeat: unset;
     }
 
 }
 
 @media (max-width: 901px) {
-
-    .body-block-eighth-background {
-        width: 700px;
-    }
 
     .body-block-eighth-feedback {
         display: block;
@@ -146,9 +144,33 @@
     .body-block-eighth-h1-p {
         padding-top: 30px;
     }
+    .body-block-eighth-background {
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+}
+
+@media (max-width: 855px) {
+
+    .body-block-eighth-background {
+        width: 755px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
 
     .body-block-eighth-background-second {
-        width: 480px;
+        width: 578px;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .body-block-eighth-background {
+        width: 728px;
+        background-attachment: unset;
+        background-repeat: unset;
     }
 
 }
@@ -156,14 +178,24 @@
 @media (max-width: 771px) {
 
     .body-block-eighth-background {
-        width: 475px;
+        width: 642px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+}
+
+@media (max-width: 660px) {
+
+    .body-block-eighth-background {
+        width: 615px;
         height: 420px;
         background-attachment: unset;
         background-repeat: unset;
     }
 
     .body-block-eighth-background-second {
-        width: 375px;
+        width: 442px;
     }
 
     .body-block-eighth-mail-window {
@@ -173,7 +205,40 @@
 
 }
 
+@media (max-width: 660px) {
+
+    .body-block-eighth-background {
+        width: 543px;
+    }
+
+}
+
+@media (max-width: 564px) {
+
+    .body-block-eighth-background {
+        width: 492px;
+    }
+
+}
+
 @media (max-width: 523px) {
+
+    .body-block-eighth-background {
+        width: 412px;
+    }
+
+    .body-block-eighth-h1-p {
+        padding-top: 6px;
+    }
+
+    .body-block-eighth-background-second {
+        height: 255px;
+        width: 323px;
+    }
+
+}
+
+@media (max-width: 450px) {
 
     .body-block-eighth-mail-window {
         width: 143px;

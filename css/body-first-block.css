@@ -88,14 +88,42 @@
         display: block;
     }
 
+    .body-block-first-left-start-green {
+        font-size: 29pt;
+    }
+
+    .body-block-first-left-start-black {
+        font-size: 28pt;
+    }
+
     .body-block-first-left {
         text-align: center;
         line-height: 40px;
-        width: 345px;
+        width: 495px;
     }
 
     .body-block-first-right-img {
-        width: 500px;
+        width: 631px;
+    }
+
+    .body-block-first {
+        height: 745px;
+    }
+
+    .body-block-first-left-other {
+        font-size: 20pt;
+    }
+
+}
+
+@media (max-width: 665px) {
+
+    .body-block-first-left-other {
+        font-size: 20pt;
+    }
+
+    .body-block-first-left {
+        width: 507px;
     }
 
 }
@@ -103,20 +131,21 @@
 @media (max-width: 523px) {
 
     .body-block-first-left-start-green {
-        font-size: 11pt;
+        font-size: 21pt;
     }
 
     .body-block-first-left-start-black {
-        font-size: 10pt;
+        font-size: 20pt;
     }
 
     .body-block-first-left-other {
-        font-size: 10pt;
+        font-size: 15pt;
         line-height: 29px;
     }
 
     .body-block-first-left {
         line-height: 29px;
+        width: 369px;
     }
 
     .first-line-text {
@@ -124,11 +153,11 @@
     }
 
     .body-block-first {
-        height: 415px;
+        height: 495px;
     }
 
     .body-block-first-right-img {
-        width: 360px;
+        width: 410px;
     }
 
 }
@@ -136,29 +165,36 @@
 @media (max-width: 383px) {
 
     .body-block-first-left-start-green {
-        font-size: 8pt;
+        font-size: 17pt;
     }
 
     .body-block-first-left-start-black {
-        font-size: 8pt;
+        font-size: 17pt;
     }
 
+    .body-block-first {
+        height: 471px;
+    }
+
+    .body-block-first-left {
+        width: 309px;
+    }
     .body-block-first-left-other-adaptive-help {
         display: flex;
         justify-content: center;
     }
 
     .body-block-first-left-other-adaptive {
-        width: 212px;
+        width: 284px;
     }
 
     .body-block-first-left-other {
-        font-size: 8pt;
+        font-size: 14pt;
         line-height: 22px;
     }
 
     .body-block-first-right-img {
-        width: 300px;
+        width: 320px;
     }
 
 }

@@ -1,3 +1,5 @@
+'use strict'
+
 const linksHead = document.querySelectorAll('.menu-link');
 const linksFooter = document.querySelectorAll('.menu-link-footer');
 

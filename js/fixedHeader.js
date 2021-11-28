@@ -1,3 +1,5 @@
+'use strict'
+
 window.onscroll = function () {
     let scrollPos = 10;
     let header = document.querySelector('.navbar');

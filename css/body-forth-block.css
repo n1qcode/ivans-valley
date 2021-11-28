@@ -8,7 +8,7 @@
 }
 
 .body-block-forth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
+    background-image: url('/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -20,7 +20,7 @@
 }
 
 .body-block-forth-background-about {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/abouttoplogo.png'), -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(34,34,34,0.40));
+    background-image: url('/img/abouttoplogo.png'), -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(34,34,34,0.40));
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -90,10 +90,14 @@
 
     .body-block-forth-background {
         width: 830px;
+        background-attachment: unset;
+        background-repeat: unset;
     }
 
     .body-block-forth-background-about {
         width: 830px;
+        background-attachment: unset;
+        background-repeat: unset;
     }
 
 }
@@ -101,11 +105,15 @@
 @media (max-width: 901px) {
 
     .body-block-forth-background {
-        width: 700px;
+        width: 758px;
+        background-attachment: unset;
+        background-repeat: unset;
     }
 
     .body-block-forth-background-about {
-        width: 700px;
+        width: 758px;
+        background-attachment: unset;
+        background-repeat: unset;
     }
 
     .body-block-forth {
@@ -115,32 +123,108 @@
 
 }
 
-@media (max-width: 771px) {
+@media (max-width: 826px) {
 
-    .body-block-forth-h1-p {
-        font-size: 30px;
-    }
-
-    .body-block-forth-text {
-        font-size: 18px;
-    }
-
-    .body-block-forth-img {
-        width: 20px;
+    .body-block-forth-h1-p-about {
+        font-size: 63px;
     }
 
     .body-block-forth-h1 {
-        padding-left: 60px;
-        padding-top: 25px;
-        width: 406px;
+        padding-left: 48px;
+    }
+
+    .body-block-forth-h1-about {
+        padding-top: 129px;
     }
 
     .body-block-forth {
-        width: 390px;
-        padding-left: 93px;
+        padding-left: 104px;
     }
 
     .body-block-forth-background {
+        width: 645px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+    .body-block-forth-background-about {
+        width: 645px;
+        height: 333px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+}
+
+@media (max-width: 706px) {
+
+    .body-block-forth-h1-p-about {
+        font-size: 53px;
+    }
+
+    .body-block-forth-h1 {
+        padding-left: 14px;
+    }
+
+    .body-block-forth {
+        padding-left: 86px;
+    }
+
+    .body-block-forth-background {
+        width: 582px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+    .body-block-forth-background-about {
+        width: 582px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .body-block-forth-h1-p-about {
+        font-size: 45px;
+    }
+
+    .body-block-forth-h1-about {
+        padding-top: 118px;
+    }
+
+    .body-block-forth-h1-p {
+        font-size: 35px;
+    }
+
+    .body-block-forth-text {
+        font-size: 22px;
+    }
+
+    .body-block-forth-img {
+        width: 30px;
+    }
+
+    .body-block-forth-h1 {
+        padding-left: 42px;
+        padding-top: 19px;
+        width: 419px;
+    }
+
+    .body-block-forth {
+        width: 453px;
+        padding-left: 65px;
+    }
+
+    .body-block-forth-background {
+        width: 475px;
+        height: 295px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+    .body-block-forth-background-about {
         width: 475px;
         height: 295px;
         background-attachment: unset;
@@ -151,51 +235,82 @@
 
 @media (max-width: 523px) {
 
+    .body-block-forth-h1-p-about {
+        font-size: 33px;
+    }
+
+    .body-block-forth-h1-about {
+        padding-top: 89px;
+    }
+
     .body-block-forth-h1 {
-        width: 280px;
-        padding-left: 46px;
+        width: 313px;
+        padding-left: 22px;
     }
 
     .body-block-forth {
-        width: 288px;
-        padding-left: 68px;
+        width: 339px;
+        padding-left: 17px;
     }
 
     .body-block-forth-h1-p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .body-block-forth-text {
-        font-size: 12px;
+        font-size: 19px;
+        margin: 10px;
     }
 
     .body-block-forth-background {
         width: 345px;
         height: 250px;
     }
+
+    .body-block-forth-background-about {
+        width: 345px;
+        height: 219px;
+    }
+
+    .body-block-forth-img {
+        width: 26px;
+    }
 }
 
 @media (max-width: 383px) {
 
+    .body-block-forth-h1-p-about {
+        font-size: 27px;
+    }
+
+    .body-block-forth-h1-about {
+        padding-top: 71px;
+    }
+
     .body-block-forth {
-        width: 250px;
+        width: 320px;
+        padding-left: 25px;
     }
 
     .body-block-forth-h1 {
         width: 270px;
+        padding-left: 12px;
+        margin-bottom: 8px;
+        margin-top: 5px;
+        padding-top: 10px;
     }
 
     .body-block-forth-h1-p {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     .body-block-forth-text {
-        font-size: 10px;
+        font-size: 17px;
         margin: 10px;
     }
 
     .body-block-forth-img {
-        width: 15px;
+        width: 20px;
     }
 
     .body-block-forth-background {
@@ -203,5 +318,9 @@
         height: 200px;
     }
 
+    .body-block-forth-background-about {
+        width: 295px;
+        height: 177px;
+    }
 
 }

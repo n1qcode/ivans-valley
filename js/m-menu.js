@@ -1,3 +1,5 @@
+'use strict'
+
 const triggers = document.querySelectorAll('.menu-trigger'), activeClass = 'active';
 
 const menuButton = document.querySelector('.menu-trigger');

@@ -143,29 +143,74 @@
 
 @media (max-width: 771px) {
 
-.body-block-seventh-text-header {
-    font-size: 40px;
+    .body-block-seventh-video-player {
+        width: 723px;
+        height: 408px;
+    }
+
 }
 
+@media (max-width: 771px) {
+
+    .body-block-seventh-text-header {
+        font-size: 40px;
+    }
+
     .body-block-seventh-text {
-        font-size: 18px;
-        width: 300px;
+        font-size: 22px;
+        width: 420px;
         text-align: center;
     }
 
     .body-block-seventh-text-second {
-        font-size: 18px;
-        width: 300px;
+        font-size: 22px;
+        width: 413px;
         text-align: center;
     }
 
     .body-block-seventh-video-player {
-        width: 475px;
-        height: 290px;
+        width: 664px;
+        height: 388px;
     }
 
     .body-block-seven-hr-line-adaptive {
         width: 457px;
+    }
+
+}
+
+@media (max-width: 716px) {
+
+    .body-block-seventh-video-player {
+        width: 622px;
+        height: 368px;
+    }
+
+}
+
+@media (max-width: 668px) {
+
+    .body-block-seventh-video-player {
+        width: 564px;
+        height: 339px;
+    }
+
+}
+
+@media (max-width: 615px) {
+
+    .body-block-seventh-video-player {
+        width: 513px;
+        height: 314px;
+    }
+
+}
+
+@media (max-width: 567px) {
+
+    .body-block-seventh-video-player {
+        width: 478px;
+        height: 303px;
     }
 
 }
@@ -177,16 +222,16 @@
     }
 
     .body-block-seventh-text {
-        font-size: 15px;
+        font-size: 19px;
     }
 
     .body-block-seventh-text-second {
-        font-size: 15px;
+        font-size: 19px;
     }
 
     .body-block-seventh-video-player {
-        width: 320px;
-        height: 190px;
+        width: 350px;
+        height: 216px;
     }
 
     .body-block-seventh-button-box {
@@ -203,12 +248,16 @@
         width: 283px;
     }
 
+    .body-block-seventh-video {
+        padding-top: 30px;
+    }
+
 }
 
 @media (max-width: 383px) {
 
     .body-block-seventh-text-header {
-        font-size: 23px;
+        font-size: 30px;
     }
 
     .body-block-seventh-text-second-one {
@@ -217,21 +266,25 @@
     }
 
     .body-block-seventh-text {
-        font-size: 13px;
+        font-size: 19px;
     }
 
     .body-block-seventh-text-second {
-        font-size: 13px;
-        width: 235px;
+        font-size: 19px;
+        width: 252px;
     }
 
     .body-block-seventh-video-player {
-        width: 257px;
-        height: 150px;
+        width: 287px;
+        height: 180px;
     }
 
     .body-block-seventh-video {
         padding-top: 27px;
+    }
+
+    .body-block-seventh-button-box {
+        font-size: 18px;
     }
 
 }

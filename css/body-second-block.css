@@ -90,16 +90,16 @@
 @media (max-width: 523px) {
 
     .body-block-second-left-bottom {
-        font-size: 15px;
+        font-size: 17px;
         padding: 17px 30px;
-    }
-
-    .body-block-second-left-point {
-        font-size: 16px;
     }
 
     .body-block-second-left-button-text {
         margin-left: 38px;
+    }
+
+    .body-block-second-left-point {
+        font-size: 20px;
     }
 
 }
