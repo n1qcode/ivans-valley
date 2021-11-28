@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/body-first-block.css">
+    <link rel="stylesheet" href="./css/body-second-block.css">
     <link rel="stylesheet" href="./css/body-third-block.css">
     <link rel="stylesheet" href="./css/body-forth-block.css">
     <link rel="stylesheet" href="./css/body-fifth-block.css">
@@ -24,6 +25,7 @@
     <script src="./js/qrcodes.js" defer></script>
     <script src="./js/smoothScroll.js" defer></script>
     <script src="./js/fixedHeader.js" defer></script>
+    <script src="./js/m-menu.js" defer></script>
     <script src="./js/preloader.js"></script>
 </head>
 
@@ -37,13 +39,101 @@
 
 <header class="header">
 
+    <!--    MOBILE-MENU    -->
+    <div class="m-menu-main-block-first">
+        <div class="m-menu-main-block">
+
+            <div class="m-menu-logo">
+                <a href="./index.html">
+                    <img class="logo_top" src="./img/logotop.png" alt="logo">
+                </a>
+            </div>
+
+            <div class="m-menu-main">
+                <div>
+                    <ul class="m-menu m-menu-adaptive">
+                        <li class="menu-item m-menu-adaptive-help">
+                            <a href="./index.html#products" class="menu-link-other">我们的产品</a>
+                        </li>
+                        <li class="menu-item m-menu-adaptive-help">
+                            <a href="#about" class="menu-link">走进 Ivan's valley</a>
+                        </li>
+                        <li class="menu-item m-menu-adaptive-help">
+                            <a href="./index.html#story" class="menu-link-other">Ivan's valley 科学</a>
+                        </li>
+                        <li class="menu-item m-menu-adaptive-help">
+                            <a href="#footer" class="menu-link">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--MENU-RIGHT-ICONS-->
+                <div class="m-menu m-menu-adaptive-help">
+                    <nav class="navs">
+                        <ul class="menu-icons-right">
+                            <li class="menu-icons">
+                                <a href="#">
+                                    <img class="menu-item-icon menu-item-qr-code1" src="./img/navicon1.png" alt="logo">
+                                </a>
+                            </li>
+                            <li class="menu-icons">
+                                <a href="#">
+                                    <img class="menu-item-icon menu-item-qr-code2" src="./img/navicon2.png" alt="logo">
+                                </a>
+                            </li>
+                            <li class="menu-icons">
+                                <a href="#">
+                                    <img class="menu-item-icon menu-item-qr-code3" src="./img/navicon3.png" alt="logo">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--MENU-RIGHT-ICONS-->
+
+                <!--QR-CODES-->
+                <div class="m-menu m-menu-adaptive-help">
+                    <nav class="nav-qr-codes">
+                        <a class="qr-code1 hidden-qr1" href="//www.facebook.com/ivansvalleyusa"
+                           target="_blank"> <img class="qr-codes" alt="qr1" src="img/qr1.jpg">
+                        </a>
+
+                        <a class="qr-code2 hidden-qr2" href="//www.facebook.com/ivansvalleyusa"
+                           target="_blank"> <img class="qr-codes" alt="qr2" src="img/qr2.png">
+                        </a>
+
+                        <a class="qr-code3 hidden-qr3" href="//www.facebook.com/ivansvalleyusa"
+                           target="_blank"> <img class="qr-codes qr-codes-third" alt="qr3" src="img/qr3.jpg">
+                        </a>
+                    </nav>
+                </div>
+                <!--QR-CODES-->
+
+            </div>
+            <div>
+                <nav class="m-menu-nav">
+                    <div class="m-menu-button">
+                        <button class="menu-trigger" id="m-menu-button-trigger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--    MOBILE-MENU    -->
+
     <div class="header-main-block">
         <div class="navbar container">
 
             <!--TOP-LOGO-LEFT-->
-            <a href="./index.html">
-                <img class="logo_top" src="./img/logotop.png" alt="logo">
-            </a>
+            <div>
+                <a href="./index.html">
+                    <img class="logo_top" src="./img/logotop.png" alt="logo">
+                </a>
+            </div>
             <!--TOP-LOGO-LEFT-->
 
             <!--MAIN-MENU-CENTER-->
@@ -70,15 +160,15 @@
 
             <!--QR-CODES-->
             <nav class="nav nav-qr-codes">
-                <a class="qr-code1 hidden-qr1" href="//www.facebook.com/ivansvalleyusa"
+                <a class="qr-code1 qr-code1-second hidden-qr1" href="//www.facebook.com/ivansvalleyusa"
                    target="_blank"> <img class="qr-codes" alt="qr1" src="img/qr1.jpg">
                 </a>
 
-                <a class="qr-code2 hidden-qr2" href="//www.facebook.com/ivansvalleyusa"
+                <a class="qr-code2 qr-code2-second hidden-qr2" href="//www.facebook.com/ivansvalleyusa"
                    target="_blank"> <img class="qr-codes" alt="qr2" src="img/qr2.png">
                 </a>
 
-                <a class="qr-code3 hidden-qr3" href="//www.facebook.com/ivansvalleyusa"
+                <a class="qr-code3 qr-code3-second hidden-qr3" href="//www.facebook.com/ivansvalleyusa"
                    target="_blank"> <img class="qr-codes qr-codes-third" alt="qr3" src="img/qr3.jpg">
                 </a>
             </nav>
@@ -89,17 +179,17 @@
                 <ul class="menu-icons-right">
                     <li class="menu-icons">
                         <a href="#">
-                            <img class="menu-item-icon menu-item-qr-code1" src="./img/navicon1.png" alt="logo">
+                            <img class="menu-item-icon menu-item-qr-code1 menu-item-qr-code1-second" src="./img/navicon1.png" alt="logo">
                         </a>
                     </li>
                     <li class="menu-icons">
                         <a href="#">
-                            <img class="menu-item-icon menu-item-qr-code2" src="./img/navicon2.png" alt="logo">
+                            <img class="menu-item-icon menu-item-qr-code2 menu-item-qr-code2-second" src="./img/navicon2.png" alt="logo">
                         </a>
                     </li>
                     <li class="menu-icons">
                         <a href="#">
-                            <img class="menu-item-icon menu-item-qr-code3" src="./img/navicon3.png" alt="logo">
+                            <img class="menu-item-icon menu-item-qr-code3 menu-item-qr-code3-second" src="./img/navicon3.png" alt="logo">
                         </a>
                     </li>
                 </ul>
@@ -226,7 +316,7 @@
 
 <!-- FORTH-BLOCK -->
 <section>
-    <div class="body-block-forth-main">
+    <div class="body-block-forth-main m-menu-top-sets">
 
         <div class="body-block-forth-background-about">
 
@@ -375,10 +465,10 @@
         <div class="body-block-sixth-text-left">
 <!--            <p class="body-block-sixth-text-header">关于我们</p>-->
 <!--            <hr class="hr-line">-->
-            <p class="body-block-sixth-text">SOYUZNAB集团是俄罗斯最大的食品配料和健康营养产品制造商。控股公司包括公司“绿线”——一个生产平台，拥有自己的农产工业综合体，位于卡卢加地区的生态清洁区。</p>
+            <p class="body-block-sixth-text">SOYUZNAB集团是俄罗斯最大的食品配料和健康营养产品制造商。控股公司包括公司“绿线”是—一个生产平台，拥有自己的农产工业综合体，位于卡卢加地区的生态清洁区。</p>
         </div>
         <div class="body-block-sixth-right-img">
-            <img class="body-block-sixth-img" src="./img/aboutlogo1.jpg" alt="aboutlogo1">
+            <img class="body-block-sixth-img" src="./img/sixthblockimg5(aboutlogo1).jpg" alt="aboutlogo1">
         </div>
     </div>
 
@@ -452,8 +542,8 @@
 <!--    </div>-->
 
     <div class="body-block-seventh-video">
-        <iframe class="body-block-seventh-video-player" src='https://player.youku.com/embed/XNTgxNzM5OTY1Ng==' allowfullscreen='allowfullscreen'></iframe>
-        <!--        <iframe class="body-block-seventh-video-player" src='https://player.bilibili.com/player.html?aid=506610019&bvid=BV12g411K7xC&cid=440358540&page=1' allowfullscreen="allowfullscreen"></iframe>-->
+<!--        <iframe class="body-block-seventh-video-player" src='https://player.youku.com/embed/XNTgxNzM5OTY1Ng==' allowfullscreen='allowfullscreen'></iframe>-->
+                <iframe class="body-block-seventh-video-player" src='https://player.bilibili.com/player.html?aid=506610019&bvid=BV12g411K7xC&cid=440358540&page=1' allowfullscreen="allowfullscreen"></iframe>
     </div>
 
     <div class="body-block-seventh-button-settings">
@@ -473,21 +563,21 @@
         <div class="body-block-eighth-background">
             <div class="body-block-eighth-background-second">
                 <div class="body-block-eighth-h1">
-                    <p class="body-block-eighth-h1-p">SIGN UP TO STAY IN THE KNOW</p>
+                    <p class="body-block-eighth-h1-p">反馈</p>
                 </div>
                 <form class="body-block-eighth-feedback">
                     <label>
-                        <input type="email" name="mail" class="body-block-eighth-mail-window" placeholder="E-mail">
+                        <input type="email" name="mail" class="body-block-eighth-mail-window" placeholder="您的信息">
                     </label>
                     <div class="body-block-eighth-feedback-button-box">
                         <button type="submit" class="body-block-eighth-feedback-button">
-                            SIGN UP!
+                            发送给我们！
                         </button>
                     </div>
                 </form>
-                <div class="body-block-eighth-bottom-text-box">
-                    <p class="body-block-eighth-bottom-text">Receive latest news, access to exclusive deals and more</p>
-                </div>
+                <!--                <div class="body-block-eighth-bottom-text-box">-->
+                <!--                    <p class="body-block-eighth-bottom-text">Receive latest news, access to exclusive deals and more</p>-->
+                <!--                </div>-->
             </div>
         </div>
     </div>

@@ -1,0 +1,118 @@
+.body-block-second {
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 707px;
+}
+
+.body-block-second-left-bottom {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #ffffff;
+    background: #16be00;
+    border-radius: 25px;
+    border: 0 solid #354251;
+    transition: all 0.8s ease;
+    letter-spacing: 2px;
+}
+
+.body-block-second-left-bottom:hover {
+    background: #ffffff;
+    color: #16be00;
+    border: 0 solid #354251;
+    transition: all 0.4s ease;
+}
+
+.body-block-second-left-point {
+    color: #73D45E;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+}
+
+.body-block-second-left-text {
+    color: black;
+    letter-spacing: 2px;
+}
+
+.body-block-second-left-button-text {
+    margin-left: 50px;
+}
+
+@media (max-width: 1423px) {
+
+    .body-block-second {
+        padding-left: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        width: 716px;
+    }
+
+}
+
+@media (max-width: 1263px) {
+    .body-block-second-adaptive {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body-block-second {
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        width: 716px;
+    }
+
+}
+
+@media (max-width: 771px) {
+
+    .body-block-second {
+        display: block;
+        width: 234px;
+    }
+
+    .body-block-second-left-button {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 523px) {
+
+    .body-block-second-left-bottom {
+        font-size: 15px;
+        padding: 17px 30px;
+    }
+
+    .body-block-second-left-point {
+        font-size: 16px;
+    }
+
+    .body-block-second-left-button-text {
+        margin-left: 38px;
+    }
+
+}
+
+@media (max-width: 383px) {
+
+    .body-block-second-left-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body-block-second-left-button-text {
+        margin-left: 60px;
+    }
+
+}

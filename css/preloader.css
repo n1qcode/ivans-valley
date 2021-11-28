@@ -74,3 +74,45 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 1263px) {
+    .preloader-img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1209px) {
+    .preloader-img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 971px) {
+    .preloader-img {
+        width: 232px;
+    }
+}
+
+@media (max-width: 901px) {
+    .preloader-img {
+        width: 207px;
+    }
+}
+
+@media (max-width: 771px) {
+    .preloader-img {
+        width: 168px;
+    }
+}
+
+@media (max-width: 523px) {
+    .preloader-img {
+        width: 144px;
+    }
+}
+
+@media (max-width: 383px) {
+    .preloader-img {
+        width: 125px;
+    }
+}

@@ -74,7 +74,7 @@
     font-size: 22px;
     line-height: 1.7;
     letter-spacing: 2px;
-    width: 972px;
+    width: 1000px;
     margin: 0;
 }
 
@@ -98,4 +98,140 @@
     width: 700px;
     border-radius: 20px;
     border-width: 0;
+}
+
+.body-block-seven-hr-line-adaptive {
+    display: none;
+}
+
+@media (max-width: 1263px) {
+
+    .body-block-seventh-text-second-one {
+        width: 499px;
+        margin: auto;
+    }
+
+    .body-block-seventh-text-second {
+        width: 436px;
+    }
+
+}
+
+@media (max-width: 1209px) {
+
+    .body-block-seventh-text-first {
+        padding-top: 0;
+    }
+
+    .body-block-seven-hr-adaptive {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .body-block-seven-hr-line-adaptive {
+        display: block;
+        margin: 20px 0;
+        padding: 0;
+        border: none;
+        background-color: #16be00;
+        height: 2px;
+        width: 700px;
+    }
+
+}
+
+@media (max-width: 771px) {
+
+.body-block-seventh-text-header {
+    font-size: 40px;
+}
+
+    .body-block-seventh-text {
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .body-block-seventh-text-second {
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .body-block-seventh-video-player {
+        width: 475px;
+        height: 290px;
+    }
+
+    .body-block-seven-hr-line-adaptive {
+        width: 457px;
+    }
+
+}
+
+@media (max-width: 523px) {
+
+    .body-block-seventh-text-header {
+        font-size: 30px;
+    }
+
+    .body-block-seventh-text {
+        font-size: 15px;
+    }
+
+    .body-block-seventh-text-second {
+        font-size: 15px;
+    }
+
+    .body-block-seventh-video-player {
+        width: 320px;
+        height: 190px;
+    }
+
+    .body-block-seventh-button-box {
+        font-size: 13px;
+        padding: 18px 54px;
+
+    }
+
+    .body-block-seventh-text-second-one {
+        width: auto;
+    }
+
+    .body-block-seven-hr-line-adaptive {
+        width: 283px;
+    }
+
+}
+
+@media (max-width: 383px) {
+
+    .body-block-seventh-text-header {
+        font-size: 23px;
+    }
+
+    .body-block-seventh-text-second-one {
+        width: 235px;
+        padding-top: 20px;
+    }
+
+    .body-block-seventh-text {
+        font-size: 13px;
+    }
+
+    .body-block-seventh-text-second {
+        font-size: 13px;
+        width: 235px;
+    }
+
+    .body-block-seventh-video-player {
+        width: 257px;
+        height: 150px;
+    }
+
+    .body-block-seventh-video {
+        padding-top: 27px;
+    }
+
 }

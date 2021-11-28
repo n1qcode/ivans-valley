@@ -14,7 +14,7 @@
 }
 
 .body-block-eighth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/eighthblockimg.jpg');
+    background-image: url('/img/eighthblockimg.jpg');
     background-size: 100% 100%;
     border-radius: 15px;
     background-attachment: fixed, scroll;
@@ -49,7 +49,7 @@
 
 .body-block-eighth-h1-p {
     color: #333333;
-    font-size: 30px;
+    font-size: 40px;
     width: 650px;
     margin: 15px;
     padding-top: 55px;
@@ -104,4 +104,129 @@
     background: white;
     margin: auto;
     border-radius: 30px;
+}
+
+@media (max-width: 1263px) {
+
+    .body-block-eighth-background {
+        width: 900px;
+    }
+
+}
+
+@media (max-width: 971px) {
+
+    .body-block-eighth-background {
+        width: 830px;
+    }
+
+}
+
+@media (max-width: 901px) {
+
+    .body-block-eighth-background {
+        width: 700px;
+    }
+
+    .body-block-eighth-feedback {
+        display: block;
+    }
+
+    .body-block-eighth-feedback-adaptive {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body-block-eighth-feedback-button-box {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .body-block-eighth-h1-p {
+        padding-top: 30px;
+    }
+
+    .body-block-eighth-background-second {
+        width: 480px;
+    }
+
+}
+
+@media (max-width: 771px) {
+
+    .body-block-eighth-background {
+        width: 475px;
+        height: 420px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+    .body-block-eighth-background-second {
+        width: 375px;
+    }
+
+    .body-block-eighth-mail-window {
+        width: 275px;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 523px) {
+
+    .body-block-eighth-mail-window {
+        width: 143px;
+        font-size: 14px;
+        height: 38px;
+    }
+
+    .body-block-eighth-feedback-button {
+        font-size: 13px;
+        padding: 17px 20px;
+        margin-left: 0;
+    }
+
+    .body-block-eighth-h1-p {
+        font-size: 35px;
+        padding-top: 7px;
+    }
+
+    .body-block-eighth-background-second {
+        width: 206px;
+        height: 225px;
+    }
+
+    .body-block-eighth-background {
+        width: 305px;
+        height: 290px;
+    }
+
+}
+
+@media (max-width: 383px) {
+
+    .body-block-eighth-main {
+        margin-top: 50px;
+    }
+
+    .body-block-eighth-h1-p {
+        padding-bottom: 0;
+        font-size: 30px;
+    }
+
+    .body-block-eighth-feedback-button {
+        padding: 11px 13px;
+    }
+
+    .body-block-eighth-background-second {
+        width: 197px;
+        height: 187px;
+    }
+
+    .body-block-eighth-background {
+        width: 273px;
+        height: 226px;
+    }
+
 }

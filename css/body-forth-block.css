@@ -8,7 +8,7 @@
 }
 
 .body-block-forth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
+    background-image: url('/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -20,7 +20,7 @@
 }
 
 .body-block-forth-background-about {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/abouttoplogo.png'), -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(34,34,34,0.40));
+    background-image: url('/img/abouttoplogo.png'), -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(34,34,34,0.40));
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -74,6 +74,134 @@
     letter-spacing: 2px;
 }
 
+@media (max-width: 1263px) {
+
+    .body-block-forth-background {
+        width: 900px;
+    }
+
+    .body-block-forth-background-about {
+        width: 900px;
+    }
+
+}
+
+@media (max-width: 971px) {
+
+    .body-block-forth-background {
+        width: 830px;
+    }
+
+    .body-block-forth-background-about {
+        width: 830px;
+    }
+
+}
+
+@media (max-width: 901px) {
+
+    .body-block-forth-background {
+        width: 700px;
+    }
+
+    .body-block-forth-background-about {
+        width: 700px;
+    }
+
+    .body-block-forth {
+        width: 536px;
+        padding-left: 146px;
+    }
+
+}
+
+@media (max-width: 771px) {
+
+    .body-block-forth-h1-p {
+        font-size: 30px;
+    }
+
+    .body-block-forth-text {
+        font-size: 18px;
+    }
+
+    .body-block-forth-img {
+        width: 20px;
+    }
+
+    .body-block-forth-h1 {
+        padding-left: 60px;
+        padding-top: 25px;
+        width: 406px;
+    }
+
+    .body-block-forth {
+        width: 390px;
+        padding-left: 93px;
+    }
+
+    .body-block-forth-background {
+        width: 475px;
+        height: 295px;
+        background-attachment: unset;
+        background-repeat: unset;
+    }
+
+}
+
+@media (max-width: 523px) {
+
+    .body-block-forth-h1 {
+        width: 280px;
+        padding-left: 46px;
+    }
+
+    .body-block-forth {
+        width: 288px;
+        padding-left: 68px;
+    }
+
+    .body-block-forth-h1-p {
+        font-size: 20px;
+    }
+
+    .body-block-forth-text {
+        font-size: 12px;
+    }
+
+    .body-block-forth-background {
+        width: 345px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 383px) {
+
+    .body-block-forth {
+        width: 250px;
+    }
+
+    .body-block-forth-h1 {
+        width: 270px;
+    }
+
+    .body-block-forth-h1-p {
+        font-size: 16px;
+    }
+
+    .body-block-forth-text {
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .body-block-forth-img {
+        width: 15px;
+    }
+
+    .body-block-forth-background {
+        width: 295px;
+        height: 200px;
+    }
 
 
-
+}

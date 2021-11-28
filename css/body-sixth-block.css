@@ -1,7 +1,7 @@
 .body-block-sixth-one-first {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .body-block-sixth-one {
@@ -140,4 +140,255 @@
     background-color: #16be00;
     height: 2px;
     width: 295px;
+}
+
+.body-block-sixth-adaptive-second {
+    display: flex;
+    justify-content: center;
+}
+
+.body-block-sixth-text-left-header-adaptive {
+    display: none;
+    justify-content: center;
+    color: #333333;
+    font-size: 58px;
+    letter-spacing: 2px;
+    margin: 0;
+    height: 115px;
+}
+
+.body-block-sixth-text-left-hr-adaptive {
+    display: none;
+    justify-content: center;
+    color: #333333;
+    font-size: 58px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-right: 140px;
+}
+
+.hr-line-adaptive {
+    margin: 20px 0;
+    padding: 0;
+    border: none;
+    background-color: #16be00;
+    height: 2px;
+    width: 100px;
+}
+
+.body-block-sixth-one-adaptation-new {
+    display: none;
+}
+
+@media (max-width: 1263px) {
+
+    .body-block-sixth-one-first {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+    .body-block-sixth-adaptive {
+        padding: 40px;
+    }
+
+}
+
+@media (max-width: 1209px) {
+
+    .body-block-sixth-one-first {
+        display: block;
+        margin-top: 35px;
+    }
+
+    .body-block-sixth-text-left {
+        margin: auto;
+    }
+
+    .body-block-sixth-text-header {
+        display: none;
+        width: 240px;
+        margin: auto;
+    }
+
+    .hr-line {
+        display: none;
+    }
+
+    .body-block-sixth-text-left-header-adaptive {
+        display: flex;
+    }
+
+    .body-block-sixth-text-left-hr-adaptive {
+        display: flex;
+    }
+
+    .hr-line {
+        margin: 20px 175px;
+    }
+
+    .body-block-sixth-right-img {
+        padding-left: 0;
+    }
+
+    .body-block-sixth-img {
+        display: flex;
+        margin: auto;
+    }
+
+    .body-block-sixth-two {
+        display: block;
+    }
+
+    .body-block-sixth-left-img {
+        padding-right: 0;
+    }
+
+    .body-block-sixth-text-right {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .body-block-sixth-one {
+        display: block;
+    }
+
+    .body-block-sixth-right-img {
+        padding-right: 0;
+    }
+
+    .body-block-sixth-text-left {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .body-block-sixth-one {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    .body-block-sixth-two {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .body-block-sixth-one-adaptation-new {
+        display: block;
+    }
+
+    .body-block-sixth-one-adaptation-new-help {
+        display: none;
+    }
+
+    .body-block-sixth-text {
+        text-align: center;
+    }
+
+    .body-block-sixth-text-left-hr-adaptive {
+        margin-bottom: 25px;
+    }
+
+    .body-block-sixth-adaptive {
+        padding: 15px;
+    }
+
+    .body-block-sixth-text-adaptive-help {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 771px) {
+
+    .body-block-sixth-img {
+        width: 385px;
+        height: 265px;
+    }
+
+    .body-block-sixth-text-right {
+        width: 385px;
+    }
+
+    .body-block-sixth-text {
+        font-size: 16px;
+    }
+
+    .body-block-sixth-text-header-adaptive {
+        font-size: 45px;
+        height: 85px;
+    }
+
+    .hr-line-adaptive {
+        width: 85px;
+    }
+
+    .body-block-sixth-text-left-hr-adaptive {
+        padding-right: 105px;
+    }
+
+    .body-block-sixth-button-box {
+        margin-left: 115px;
+    }
+
+    .body-block-sixth-text-adaptive-help-mt {
+        padding-top: 50px;
+    }
+
+}
+
+@media (max-width: 523px) {
+
+    .body-block-sixth-text-header-adaptive {
+        font-size: 35px;
+    }
+
+    .body-block-sixth-text-left-header-adaptive {
+        height: 62px;
+    }
+
+    .hr-line-adaptive {
+        width: 67px;
+    }
+
+    .body-block-sixth-text-left-hr-adaptive {
+        padding-right: 85px;
+    }
+
+    .body-block-sixth-img {
+        width: 280px;
+        height: 186px;
+    }
+
+    .body-block-sixth-text {
+        font-size: 13px;
+    }
+
+    .body-block-sixth-text-right {
+        width: 300px;
+    }
+
+    .body-block-sixth-button-box {
+        margin-left: 75px;
+    }
+
+}
+
+@media (max-width: 383px) {
+
+    .body-block-sixth-img {
+        width: 260px;
+    }
+
+    .body-block-sixth-text-right {
+        width: 260px;
+    }
+
+    .body-block-sixth-text {
+        font-size: 12px;
+    }
+
+    .body-block-sixth-button-box {
+        margin-left: 55px;
+    }
+
 }
