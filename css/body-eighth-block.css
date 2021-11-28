@@ -14,7 +14,7 @@
 }
 
 .body-block-eighth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/eighthblockimg.jpg');
+    background-image: url('./img/eighthblockimg.jpg');
     background-size: 100% 100%;
     border-radius: 15px;
     background-attachment: fixed, scroll;
