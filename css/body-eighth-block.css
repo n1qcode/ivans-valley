@@ -14,7 +14,7 @@
 }
 
 .body-block-eighth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/eighthblockimg.jpg');
+    background-image: url('/img/eighthblockimg.jpg');
     background-size: 100% 100%;
     border-radius: 15px;
     background-attachment: fixed, scroll;
@@ -23,6 +23,18 @@
     height: 600px;
     margin: auto;
     display: flex;
+    justify-content: center;
+}
+
+.body-block-eighth-background-adaptive {
+    background-size: 100% 100%;
+    border-radius: 15px;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: none;
     justify-content: center;
 }
 
@@ -104,6 +116,7 @@
     background: white;
     margin: auto;
     border-radius: 30px;
+    box-shadow: 0 10px 25px 0 rgb(0 0 0 / 10%);
 }
 
 @media (max-width: 1263px) {
@@ -178,93 +191,95 @@
 @media (max-width: 771px) {
 
     .body-block-eighth-background {
+        display: none;
+    }
+
+    .body-block-eighth-background-adaptive {
+        display: flex;
         width: 642px;
         background-attachment: unset;
         background-repeat: unset;
+        height: 310px;
     }
 
 }
 
+
 @media (max-width: 660px) {
 
-    .body-block-eighth-background {
-        width: 615px;
-        height: 420px;
+    .body-block-eighth-background-adaptive {
+        width: auto;
         background-attachment: unset;
         background-repeat: unset;
     }
 
     .body-block-eighth-background-second {
-        width: 442px;
+        width: 571px;
     }
 
     .body-block-eighth-mail-window {
-        width: 275px;
+        width: 457px;
+        font-size: 22px;
+        height: 62px;
+    }
+
+    .body-block-eighth-h1-p {
+        font-size: 45px;
+    }
+
+    .body-block-eighth-feedback-button {
         font-size: 18px;
     }
 
 }
 
-@media (max-width: 660px) {
+@media (max-width: 618px) {
 
-    .body-block-eighth-background {
-        width: 543px;
+    .body-block-eighth-background-second {
+        width: 509px;
     }
 
 }
 
 @media (max-width: 564px) {
 
-    .body-block-eighth-background {
-        width: 492px;
+    .body-block-eighth-background-second {
+        width: 465px;
+        height: 300px;
+    }
+
+    .body-block-eighth-mail-window {
+        width: 408px;
     }
 
 }
 
-@media (max-width: 523px) {
-
-    .body-block-eighth-background {
-        width: 412px;
-    }
+@media (max-width: 503px) {
 
     .body-block-eighth-h1-p {
         padding-top: 6px;
     }
 
     .body-block-eighth-background-second {
-        height: 255px;
-        width: 323px;
+        width: 413px;
+        height: 281px;
+    }
+
+    .body-block-eighth-mail-window {
+        width: 373px;
     }
 
 }
 
 @media (max-width: 450px) {
 
-    .body-block-eighth-mail-window {
-        width: 143px;
-        font-size: 14px;
-        height: 38px;
-    }
-
-    .body-block-eighth-feedback-button {
-        font-size: 13px;
-        padding: 17px 20px;
-        margin-left: 0;
-    }
-
-    .body-block-eighth-h1-p {
-        font-size: 35px;
-        padding-top: 7px;
-    }
-
     .body-block-eighth-background-second {
-        width: 206px;
-        height: 225px;
+        width: 360px;
+        height: 255px;
     }
 
-    .body-block-eighth-background {
-        width: 305px;
-        height: 290px;
+    .body-block-eighth-mail-window {
+        width: 325px;
     }
 
 }
@@ -277,21 +292,15 @@
 
     .body-block-eighth-h1-p {
         padding-bottom: 0;
-        font-size: 30px;
     }
 
-    .body-block-eighth-feedback-button {
-        padding: 11px 13px;
-    }
 
     .body-block-eighth-background-second {
-        width: 197px;
-        height: 187px;
+        width: 301px;
     }
 
-    .body-block-eighth-background {
-        width: 273px;
-        height: 226px;
+    .body-block-eighth-mail-window {
+        width: 270px;
     }
 
 }

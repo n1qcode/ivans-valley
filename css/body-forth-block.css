@@ -8,7 +8,7 @@
 }
 
 .body-block-forth-background {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
+    background-image: url('/img/scrollimg1.jpg'), linear-gradient(120deg, #fff7eb, transparent);
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -19,8 +19,21 @@
     margin: auto;
 }
 
+.body-block-forth-background-adaptive {
+    background-image: url('/img/testimg2.png'), linear-gradient(120deg, #fff7eb, transparent);
+    background-blend-mode: overlay;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+    display: none;
+}
+
 .body-block-forth-background-about {
-    background-image: url('https://n1qcode.github.io/ivans-valley/img/abouttoplogo.png'), -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(34,34,34,0.40));
+    background-image: url('/img/abouttoplogo.png'), -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(34,34,34,0.40));
     background-blend-mode: overlay;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -89,9 +102,14 @@
 @media (max-width: 971px) {
 
     .body-block-forth-background {
+        display: none;
+    }
+
+    .body-block-forth-background-adaptive {
         width: 830px;
         background-attachment: unset;
         background-repeat: unset;
+        display: block;
     }
 
     .body-block-forth-background-about {
@@ -104,7 +122,7 @@
 
 @media (max-width: 901px) {
 
-    .body-block-forth-background {
+    .body-block-forth-background-adaptive {
         width: 758px;
         background-attachment: unset;
         background-repeat: unset;
@@ -141,7 +159,7 @@
         padding-left: 104px;
     }
 
-    .body-block-forth-background {
+    .body-block-forth-background-adaptive {
         width: 645px;
         background-attachment: unset;
         background-repeat: unset;
@@ -164,21 +182,17 @@
 
     .body-block-forth-h1 {
         padding-left: 14px;
-        width: 535px;
+        width: 567px;
     }
 
     .body-block-forth {
         padding-left: 86px;
     }
 
-    .body-block-forth-background {
+    .body-block-forth-background-adaptive {
         width: 582px;
         background-attachment: unset;
         background-repeat: unset;
-    }
-
-    .body-block-first-right-img {
-        width: 584px;
     }
 
     .body-block-forth-background-about {
@@ -222,7 +236,7 @@
         padding-left: 65px;
     }
 
-    .body-block-forth-background {
+    .body-block-forth-background-adaptive {
         width: 475px;
         height: 295px;
         background-attachment: unset;
@@ -234,10 +248,6 @@
         height: 295px;
         background-attachment: unset;
         background-repeat: unset;
-    }
-
-    .body-block-first-right-img {
-        width: 524px;
     }
 
 }
@@ -271,7 +281,7 @@
         margin: 10px;
     }
 
-    .body-block-forth-background {
+    .body-block-forth-background-adaptive {
         width: 345px;
         height: 250px;
     }
@@ -283,9 +293,6 @@
 
     .body-block-forth-img {
         width: 26px;
-    }
-    .body-block-first-right-img {
-        width: 384px;
     }
 }
 
@@ -300,7 +307,7 @@
     }
 
     .body-block-forth {
-        width: 320px;
+        width: 300px;
         padding-left: 25px;
     }
 
@@ -325,7 +332,7 @@
         width: 20px;
     }
 
-    .body-block-forth-background {
+    .body-block-forth-background-adaptive {
         width: 295px;
         height: 200px;
     }
@@ -333,9 +340,6 @@
     .body-block-forth-background-about {
         width: 295px;
         height: 177px;
-    }
-    .body-block-first-right-img {
-        width: 320px;
     }
 
 }
